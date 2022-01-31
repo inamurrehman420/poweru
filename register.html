@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>VpowerU</title>
+
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <div class="theme-loader">
+            <div class="loader-p"></div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row" style="height: 100vh;">
+                <div class="col-xl-6 p-5">
+
+                    <img class="bg-img-cover bg-center" src="assets/images/login/sdsd.gif" alt="maingif">
+
+                </div>
+                <div class="col-xl-6 p-0">
+
+                    <div class="row register-box">
+                        <div class="col-lg-11 offset-sm-0 mobile-view">
+                            <form id="loginForm" method="post">
+                                <div class="row g-0 ">
+                                    <div class="col-10 col-lg-9 mx-auto text-center">
+                                        <div class="logo mt-4 mb-3 mb-md-0">
+                                            <a href="index.html" title="vpoweru"><img class="logo-design" src="assets/images/login/main.png" alt="mainlogo"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="fw-bold mb-2 text-center mt-3">Register Now</h3>
+                                <p class="text-center mb-4">See what is going on with your business</p>
+                                <div class="d-flex wizard-section mx-auto mb-2">
+
+                                    <a id="backbnt-">
+                                        <div class="circle-design">
+                                            <img src="assets/images/login/user-pin.svg" alt="circle">
+                                        </div>
+                                    </a>
+
+                                    <div id="line-design" class="line-design">
+
+                                    </div>
+                                    <a id="image">
+                                        <div id="NextID-" class="circle-other">
+                                            <img src="assets/images/login/contact-info.svg" alt="circle">
+                                        </div>
+                                    </a>
+                                    <a style="display: none;" id="image-1">
+                                        <div class="circle-other-second">
+                                            <img src="assets/images/login/contact-info.svg" alt="circle">
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                                <div id="first-step">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon name mb-2">
+                                                <img src="assets/images/login/user.svg" alt="icon">
+
+                                                <label>Customer Name <span class="text-danger fw-bold">
+                                                    *
+                                                </span></label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="Enter Customer Name">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon name mb-2">
+                                                <img src="assets/images/login/Vector.svg" alt="icon">
+
+                                                <label>Customer Email<span class="text-danger fw-bold">
+                                                    *
+                                                </span></label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="Enter Customer Email">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                    <div class="row">
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon name mb-2">
+                                                <img src="assets/images/login/phone.svg" alt="icon">
+
+                                                <label>Phone Number<span class="text-danger fw-bold">
+                                                    *
+                                                </span></label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="9255555566565">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon name mb-2">
+                                                <img src="assets/images/login/meter.svg" alt="icon">
+
+                                                <label>MPAN</label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="Meter Point Administration Number">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon name mb-2">
+                                                <img src="assets/images/login/password.svg" alt="icon">
+
+                                                <label>Password<span class="text-danger fw-bold">
+                                                    *
+                                                </span></label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="Enter Password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon name mb-2">
+                                                <img src="assets/images/login/password.svg" alt="icon">
+
+                                                <label>Confirm Password<span class="text-danger fw-bold">
+                                                    *
+                                                </span></label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="Confirm Password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-sm-12">
+                                            <div class="ry-field-with-icon name mb-2">
+                                                <img src="assets/images/login/address.svg" alt="icon">
+
+                                                <label>Address<span class="text-danger fw-bold">
+                                                    *
+                                                </span></label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="Address">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div style="display: none;" id="second-step">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon- name mb-2">
+                                                <!-- <img src="../assets/images/login/user.svg" alt="looginpage"> -->
+
+                                                <label>Peak demand in KWh</label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="Estimated peak demand in KWh">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon- name mb-2">
+                                                <!-- <img src="../assets/images/login/Vector.svg" alt="looginpage"> -->
+
+                                                <label>Minimum demand in KWh</label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="Estimated minimum demand in KWh">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon- name mb-2">
+
+                                                <label>Annual demand in KWh</label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="Estimated annual demand in KWh">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon- name mb-2">
+
+                                                <label>Upward flexibility</label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="Estimated Upward flexibility">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon- name mb-2">
+
+                                                <label>Downward flexibility</label>
+
+                                                <div class="form-group">
+                                                    <input class="border-none" type="text" placeholder="Estimated Downward flexibility">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                            <div class="ry-field-with-icon- name mb-2">
+
+                                                <label>Flexibility Type</label>
+
+                                                <div class="form-group">
+                                                    <div class="drop-btn">
+                                                        <select class="dropdown-select" onchange="document.getElementById('displayValue').value=this.options[this.selectedIndex].text; document.getElementById('idValue').value=this.options[this.selectedIndex].value;">
+                              <option></option>
+                              <option value="one">one</option>
+                              <option value="two">two</option>
+                              <option value="three">three</option>
+                            </select>
+                                                        <input class="drop-down-input" type="text" name="displayValue" id="displayValue" placeholder="Select Option" onfocus="this.select()" style="position:absolute;top:0px;left:0px;width:183px;width:180px\9; ">
+                                                        <input name="idValue" id="idValue" type="hidden">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-sm-12">
+                                            <div class="ry-field-with-icon name mb-2" style="border: none;">
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-lg-12 col-sm-12 text-end btns">
+                                        <a id="backbnt">
+                                            <button class="btn back-btn mx-2" type="button"><img class="me-2" src="assets/images/login/back.svg" alt="backicon">Back</button>
+                                        </a>
+                                        <a id="NextID">
+                                            <button class="btn btn-primary btn-next" type="button"><img class="me-2" src="assets/images/login/next.svg" alt="nexticon">Next</button>
+                                        </a>
+
+
+                                    </div>
+
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <p class="text-center text-muted py-2">Already have an account?<a class="link-primary fw-bold mx-2" href="index.html">Login</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/bootstrap/popper.min.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#backbnt").css("display", "none");
+            $('#NextID').click(function() {
+
+                $("#backbnt").css("display", "contents");
+
+                $("#first-step").css("display", "none");
+                $("#second-step").css("display", "block");
+
+                $("#line-design").removeClass("line-color-first");
+                $('#line-design').addClass('line-color-second');
+
+                $("#image").css("display", "none");
+                $("#image-1").css("display", "block");
+
+            });
+
+            $('#backbnt').click(function() {
+                $("#backbnt").css("display", "none");
+
+                $("#first-step").css("display", "block");
+                $("#second-step").css("display", "none");
+
+                $("#line-design").removeClass("line-color-second");
+                $('#line-design').addClass('line-color-first');
+
+
+                $("#image").css("display", "block");
+                $("#image-1").css("display", "none");
+
+            });
+
+
+            $('#NextID-').click(function() {
+                $("#first-step").css("display", "none");
+                $("#second-step").css("display", "block");
+
+                $("#line-design").removeClass("line-color-first");
+                $('#line-design').addClass('line-color-second');
+
+                $("#image").css("display", "none");
+                $("#image-1").css("display", "block");
+
+            });
+
+            $('#backbnt-').click(function() {
+                $("#first-step").css("display", "block");
+                $("#second-step").css("display", "none");
+
+                $("#line-design").removeClass("line-color-second");
+                $('#line-design').addClass('line-color-first');
+
+
+                $("#image").css("display", "block");
+                $("#image-1").css("display", "none");
+
+            });
+
+
+        });
+    </script>
+
+
+</body>
+
+</html>
